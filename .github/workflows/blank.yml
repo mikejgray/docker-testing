@@ -9,5 +9,5 @@ permissions:
 
 jobs:
   build_and_publish_docker:
-    uses: mikejgray/.github/.github/workflows/publish_docker.yml@patch-2
+    uses: "mikejgray/.github/.github/workflows/publish_docker.yml@patch-2"
     secrets: inherit
