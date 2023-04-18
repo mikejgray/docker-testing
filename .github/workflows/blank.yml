@@ -12,3 +12,5 @@ jobs:
       contents: read
     uses: "neongeckocom/.github/.github/workflows/publish_docker.yml@TEST_ArmBuilds"
     secrets: inherit
+    with:
+      platforms: linux/amd64,linux/arm/v8
