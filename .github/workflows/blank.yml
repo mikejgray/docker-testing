@@ -12,4 +12,4 @@ jobs:
       contents: read
     uses: "mikejgray/.github/.github/workflows/publish_docker.yml@patch-2"
     with:
-      platforms: linux/amd64,linux/arm64
+      platforms: linux/amd64,linux/arm64/v8
